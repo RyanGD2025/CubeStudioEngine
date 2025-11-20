@@ -1,0 +1,37 @@
+{
+  "scopeName": "source.csscript",
+  "name": "Cube Studio Script",
+  "patterns": [
+    {
+      "name": "comment.line.csscript",
+      "match": "//.*$"
+    },
+    {
+      "name": "keyword.control.csscript",
+      "match": "\\b(while|do|local|class|if|else|elseif|extends)\\b"
+    },
+    {
+      "name": "constant.language.boolean.csscript",
+      "match": "\\b(true|false)\\b"
+    },
+    {
+      "name": "string.quoted.csscript",
+      "match": "\".*?\""
+    },
+    {
+      "name": "constant.numeric.csscript",
+      "match": "\\b\\d+(\\.\\d+)?\\b"
+    },
+    {
+      "name": "support.function.csscript",
+      "match": "\\b(printinConsole|Add|Vector|Angle|GetChildren|GetService|Delete|Duplicate|move|rotate|scale)\\b"
+    },
+    {
+      "name": "variable.property.csscript",
+      "match": "\\.(Name|Type|Pos|Angle|Size|Collide|Touch|Text|Color)\\b"
+    }
+  ],
+  "repository": {},
+  "fileTypes": ["csscript"],
+  "uuid": "3b52b0fa-e9b8-11ee-a1f5-325096b39f47"
+}

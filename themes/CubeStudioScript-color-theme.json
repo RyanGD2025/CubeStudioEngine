@@ -1,0 +1,33 @@
+{
+  "name": "CubeStudio Script Theme",
+  "type": "dark",
+  "colors": {
+    "editor.foreground": "#dddddd"
+  },
+  "tokenColors": [
+    {
+      "scope": "keyword.control.csscript",
+      "settings": { "foreground": "#ff66cc" }
+    },
+    {
+      "scope": "support.function.csscript",
+      "settings": { "foreground": "#fff799" }
+    },
+    {
+      "scope": "string.quoted.csscript",
+      "settings": { "foreground": "#99ff99" }
+    },
+    {
+      "scope": "comment.line.csscript",
+      "settings": { "foreground": "#888888" }
+    },
+    {
+      "scope": ["constant.numeric.csscript", "constant.language.boolean.csscript"],
+      "settings": { "foreground": "#ffbb66" }
+    },
+    {
+      "scope": "variable.property.csscript",
+      "settings": { "foreground": "#66ccff" }
+    }
+  ]
+}
